@@ -295,3 +295,374 @@
 [2017-06-14 11:34:34,684] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
 [2017-06-14 11:34:34,684] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
 [2017-06-14 11:34:34,685] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 14:47:47,979] [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2017-06-14 14:47:48,166] [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2017-06-14 14:47:50,041] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2017-06-14 14:47:50,096] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2017-06-14 14:47:50,110] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2017-06-14 14:47:50,111] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2017-06-14 14:47:50,113] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy46
+[2017-06-14 14:47:50,119] [main] DEBUG o.h.v.i.x.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2017-06-14 14:47:50,123] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2017-06-14 14:47:50,124] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2017-06-14 14:47:50,125] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2017-06-14 14:47:50,125] [main] DEBUG o.h.v.i.x.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2017-06-14 14:47:50,491] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2017-06-14 14:47:50,492] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2017-06-14 14:47:50,493] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2017-06-14 14:47:50,493] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2017-06-14 14:47:50,493] [main] DEBUG o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy46
+[2017-06-14 14:47:50,494] [main] DEBUG o.h.v.i.x.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2017-06-14 14:47:50,494] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2017-06-14 14:47:50,494] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2017-06-14 14:47:50,494] [main] DEBUG o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2017-06-14 14:47:50,494] [main] DEBUG o.h.v.i.x.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2017-06-14 14:48:59,682] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Couldn't find template in cache for "index.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 14:48:59,684] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 14:48:59,686] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 14:48:59,686] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 14:48:59,687] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 14:48:59,854] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 14:56:58,002] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 14:56:58,002] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 14:56:58,002] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 14:56:58,002] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497409152000 != source.lastModified=1497423008000
+[2017-06-14 14:56:58,002] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 14:57:50,850] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 14:57:50,850] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 14:57:50,850] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 14:57:50,850] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423008000 != source.lastModified=1497423465000
+[2017-06-14 14:57:50,850] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 14:58:04,078] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 14:58:04,079] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 14:58:04,079] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 14:58:04,079] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423465000 != source.lastModified=1497423482000
+[2017-06-14 14:58:04,079] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 14:58:29,400] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 14:58:29,401] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 14:58:29,401] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 14:58:29,401] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423482000 != source.lastModified=1497423507000
+[2017-06-14 14:58:29,401] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:00:32,803] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:00:32,803] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:00:32,803] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:00:32,804] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423507000 != source.lastModified=1497423627000
+[2017-06-14 15:00:32,804] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:01:09,561] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:01:09,562] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:01:09,562] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:01:09,562] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423627000 != source.lastModified=1497423666000
+[2017-06-14 15:01:09,562] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:02:23,896] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:02:23,896] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:02:23,896] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:02:23,897] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423666000 != source.lastModified=1497423739000
+[2017-06-14 15:02:23,897] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:14:41,685] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:14:41,685] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:14:41,685] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:14:41,685] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 15:16:06,637] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:16:06,638] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:16:06,638] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:16:06,638] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497423739000 != source.lastModified=1497424564000
+[2017-06-14 15:16:06,638] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:16:52,426] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:16:52,426] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:16:52,426] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:16:52,426] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497424564000 != source.lastModified=1497424610000
+[2017-06-14 15:16:52,426] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:18:54,610] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:18:54,610] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:18:54,610] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:18:54,610] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497424610000 != source.lastModified=1497424732000
+[2017-06-14 15:18:54,610] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:20:22,978] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:20:22,978] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:20:22,979] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:20:22,979] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497424732000 != source.lastModified=1497424819000
+[2017-06-14 15:20:22,979] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:20:57,209] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:20:57,209] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:20:57,209] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:20:57,209] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497424819000 != source.lastModified=1497424852000
+[2017-06-14 15:20:57,209] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:25:05,703] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:25:05,703] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:25:05,703] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:25:05,704] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497424852000 != source.lastModified=1497425057000
+[2017-06-14 15:25:05,704] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:25:19,242] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:25:19,242] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:25:19,242] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:25:19,242] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425057000 != source.lastModified=1497425114000
+[2017-06-14 15:25:19,242] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:26:38,230] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:26:38,231] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:26:38,231] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:26:38,231] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425114000 != source.lastModified=1497425193000
+[2017-06-14 15:26:38,231] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:27:36,297] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:27:36,297] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:27:36,297] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:27:36,297] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 15:28:34,044] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:28:34,044] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:28:34,045] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:28:34,045] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425193000 != source.lastModified=1497425306000
+[2017-06-14 15:28:34,045] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:28:37,464] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 15:28:40,365] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:28:40,365] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:28:40,365] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:28:40,366] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 15:30:21,026] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:30:21,027] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:30:21,027] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:30:21,027] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425306000 != source.lastModified=1497425417000
+[2017-06-14 15:30:21,027] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:37:12,336] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:37:12,336] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:37:12,336] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:37:12,336] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425417000 != source.lastModified=1497425829000
+[2017-06-14 15:37:12,336] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:37:48,796] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:37:48,797] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:37:48,797] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:37:48,797] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425829000 != source.lastModified=1497425867000
+[2017-06-14 15:37:48,797] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:40:48,477] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:40:48,477] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:40:48,477] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:40:48,478] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497425867000 != source.lastModified=1497426046000
+[2017-06-14 15:40:48,478] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:42:14,191] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:42:14,192] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:42:14,192] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:42:14,192] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426046000 != source.lastModified=1497426129000
+[2017-06-14 15:42:14,192] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:45:06,424] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:45:06,424] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:45:06,424] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:45:06,424] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426129000 != source.lastModified=1497426303000
+[2017-06-14 15:45:06,424] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:47:04,991] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:47:04,991] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:47:04,991] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:47:04,991] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426303000 != source.lastModified=1497426421000
+[2017-06-14 15:47:04,991] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:47:37,749] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "index.html.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 15:47:37,749] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.html_en_US.ftl"): Not found
+[2017-06-14 15:47:37,749] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.html_en.ftl"): Not found
+[2017-06-14 15:47:37,750] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.html.ftl"): Not found
+[2017-06-14 15:47:37,752] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:47:37,753] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:47:37,753] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:47:37,753] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 15:47:40,606] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 15:47:42,418] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Couldn't find template in cache for "full-width.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 15:47:42,418] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en_US.ftl"): Not found
+[2017-06-14 15:47:42,418] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en.ftl"): Not found
+[2017-06-14 15:47:42,418] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.ftl"): Found
+[2017-06-14 15:47:42,418] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "full-width.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/full-width.ftl"
+[2017-06-14 15:47:42,437] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Couldn't find template in cache for "full-width.html.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 15:47:42,438] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.html_en_US.ftl"): Not found
+[2017-06-14 15:47:42,438] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.html_en.ftl"): Not found
+[2017-06-14 15:47:42,438] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.html.ftl"): Not found
+[2017-06-14 15:47:42,438] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - "full-width.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 15:49:59,599] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:49:59,600] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:49:59,600] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:49:59,600] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426421000 != source.lastModified=1497426595000
+[2017-06-14 15:49:59,600] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:53:16,551] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:53:16,551] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:53:16,551] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:53:16,551] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426595000 != source.lastModified=1497426715000
+[2017-06-14 15:53:16,551] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:53:18,395] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 15:54:47,183] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:54:47,184] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:54:47,184] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:54:47,184] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426715000 != source.lastModified=1497426885000
+[2017-06-14 15:54:47,184] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:55:07,615] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:55:07,615] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:55:07,615] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:55:07,615] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 15:55:09,139] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en_US.ftl"): Not found
+[2017-06-14 15:55:09,139] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en.ftl"): Not found
+[2017-06-14 15:55:09,139] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.ftl"): Found
+[2017-06-14 15:55:09,139] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497409317000 != source.lastModified=1497426862000
+[2017-06-14 15:55:09,139] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Loading template for "full-width.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/full-width.ftl"
+[2017-06-14 15:55:21,923] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "about.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 15:55:21,923] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 15:55:21,923] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 15:55:21,923] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 15:55:21,923] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 15:55:21,936] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "about.html.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 15:55:21,937] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.html_en_US.ftl"): Not found
+[2017-06-14 15:55:21,937] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.html_en.ftl"): Not found
+[2017-06-14 15:55:21,937] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.html.ftl"): Not found
+[2017-06-14 15:55:21,937] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "about.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 15:58:20,317] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:58:20,317] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:58:20,318] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:58:20,318] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426885000 != source.lastModified=1497427085000
+[2017-06-14 15:58:20,318] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 15:59:44,160] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en_US.ftl"): Not found
+[2017-06-14 15:59:44,161] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en.ftl"): Not found
+[2017-06-14 15:59:44,161] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.ftl"): Found
+[2017-06-14 15:59:44,161] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497426862000 != source.lastModified=1497427090000
+[2017-06-14 15:59:44,161] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Loading template for "full-width.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/full-width.ftl"
+[2017-06-14 15:59:45,883] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 15:59:45,883] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 15:59:45,883] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 15:59:45,884] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:02:23,408] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:02:23,408] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:02:23,408] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:02:23,409] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:02:38,544] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:02:38,544] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:02:38,544] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:02:38,544] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:02:58,989] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:02:58,990] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:02:58,990] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:02:58,990] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:03:44,793] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:03:44,794] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:03:44,794] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:03:44,794] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:03:58,329] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:03:58,329] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:03:58,329] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:03:58,329] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:13:40,413] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:13:40,426] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:13:40,427] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:13:40,427] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:13:57,610] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:13:57,611] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:13:57,611] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:13:57,611] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:15:18,448] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:15:18,448] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:15:18,448] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:15:18,449] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:16:10,225] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Couldn't find template in cache for "single.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 16:16:10,225] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:16:10,225] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:16:10,235] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:16:10,236] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Loading template for "single.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/single.ftl"
+[2017-06-14 16:16:10,254] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Couldn't find template in cache for "single.html.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 16:16:10,254] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.html_en_US.ftl"): Not found
+[2017-06-14 16:16:10,254] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.html_en.ftl"): Not found
+[2017-06-14 16:16:10,255] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.html.ftl"): Not found
+[2017-06-14 16:16:10,255] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - "single.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 16:16:47,020] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "contact.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 16:16:47,020] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en_US.ftl"): Not found
+[2017-06-14 16:16:47,020] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en.ftl"): Not found
+[2017-06-14 16:16:47,021] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.ftl"): Found
+[2017-06-14 16:16:47,021] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "contact.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/contact.ftl"
+[2017-06-14 16:16:47,030] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "contact.html.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2017-06-14 16:16:47,030] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.html_en_US.ftl"): Not found
+[2017-06-14 16:16:47,030] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.html_en.ftl"): Not found
+[2017-06-14 16:16:47,030] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.html.ftl"): Not found
+[2017-06-14 16:16:47,031] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - "contact.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[2017-06-14 16:16:49,232] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:16:49,232] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:16:49,233] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:16:49,233] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - "about.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/about.ftl hasn't changed.
+[2017-06-14 16:16:51,430] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en_US.ftl"): Not found
+[2017-06-14 16:16:51,430] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width_en.ftl"): Not found
+[2017-06-14 16:16:51,430] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("full-width.ftl"): Found
+[2017-06-14 16:16:51,431] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - "full-width.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/full-width.ftl hasn't changed.
+[2017-06-14 16:16:53,541] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:16:53,542] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:16:53,542] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:16:53,542] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - "single.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/single.ftl hasn't changed.
+[2017-06-14 16:43:32,954] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:43:33,017] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:43:33,018] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:43:33,018] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - "single.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/single.ftl hasn't changed.
+[2017-06-14 16:45:14,501] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:45:14,501] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:45:14,501] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:45:14,501] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497409528000 != source.lastModified=1497429909000
+[2017-06-14 16:45:14,501] [http-nio-127.0.0.1-8081-exec-2] DEBUG freemarker.cache - Loading template for "single.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/single.ftl"
+[2017-06-14 16:47:18,782] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:47:18,783] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:47:18,783] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:47:18,783] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497429909000 != source.lastModified=1497430035000
+[2017-06-14 16:47:18,783] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "single.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/single.ftl"
+[2017-06-14 16:47:32,528] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:47:32,528] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:47:32,528] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:47:32,528] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:48:11,406] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 16:48:11,406] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 16:48:11,407] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 16:48:11,407] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 16:48:13,882] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en_US.ftl"): Not found
+[2017-06-14 16:48:13,882] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single_en.ftl"): Not found
+[2017-06-14 16:48:13,882] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("single.ftl"): Found
+[2017-06-14 16:48:13,882] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430035000 != source.lastModified=1497430089000
+[2017-06-14 16:48:13,883] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - Loading template for "single.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/single.ftl"
+[2017-06-14 16:48:55,769] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:48:55,769] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:48:55,769] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:48:55,769] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - "about.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/about.ftl hasn't changed.
+[2017-06-14 16:50:54,033] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:50:54,033] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:50:54,033] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:50:54,033] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497409029000 != source.lastModified=1497430240000
+[2017-06-14 16:50:54,033] [http-nio-127.0.0.1-8081-exec-3] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 16:51:19,273] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:51:19,273] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:51:19,273] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:51:19,273] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430240000 != source.lastModified=1497430275000
+[2017-06-14 16:51:19,273] [http-nio-127.0.0.1-8081-exec-6] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 16:52:17,039] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:52:17,039] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:52:17,039] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:52:17,039] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430275000 != source.lastModified=1497430334000
+[2017-06-14 16:52:17,039] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 16:53:33,521] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:53:33,521] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:53:33,521] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:53:33,521] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430334000 != source.lastModified=1497430412000
+[2017-06-14 16:53:33,521] [http-nio-127.0.0.1-8081-exec-8] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 16:54:40,618] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en_US.ftl"): Not found
+[2017-06-14 16:54:40,619] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about_en.ftl"): Not found
+[2017-06-14 16:54:40,619] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("about.ftl"): Found
+[2017-06-14 16:54:40,619] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430412000 != source.lastModified=1497430467000
+[2017-06-14 16:54:40,619] [http-nio-127.0.0.1-8081-exec-7] DEBUG freemarker.cache - Loading template for "about.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/about.ftl"
+[2017-06-14 16:54:49,764] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en_US.ftl"): Not found
+[2017-06-14 16:54:49,764] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en.ftl"): Not found
+[2017-06-14 16:54:49,764] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.ftl"): Found
+[2017-06-14 16:54:49,764] [http-nio-127.0.0.1-8081-exec-5] DEBUG freemarker.cache - "contact.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/contact.ftl hasn't changed.
+[2017-06-14 17:13:27,048] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 17:13:27,058] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 17:13:27,058] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 17:13:27,058] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497427085000 != source.lastModified=1497430121000
+[2017-06-14 17:13:27,058] [http-nio-127.0.0.1-8081-exec-1] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 17:13:29,714] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en_US.ftl"): Not found
+[2017-06-14 17:13:29,714] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact_en.ftl"): Not found
+[2017-06-14 17:13:29,714] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("contact.ftl"): Found
+[2017-06-14 17:13:29,714] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497409403000 != source.lastModified=1497431584000
+[2017-06-14 17:13:29,714] [http-nio-127.0.0.1-8081-exec-4] DEBUG freemarker.cache - Loading template for "contact.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/contact.ftl"
+[2017-06-14 17:14:02,800] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 17:14:02,801] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 17:14:02,801] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 17:14:02,801] [http-nio-127.0.0.1-8081-exec-10] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.
+[2017-06-14 17:19:38,426] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 17:19:38,426] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 17:19:38,426] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 17:19:38,426] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Updating source because: lastModifiedNotChanged=false, cached.lastModified=1497430121000 != source.lastModified=1497431970000
+[2017-06-14 17:19:38,426] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - Loading template for "index.ftl"("en_US", UTF-8, parsed) from "/root/workspace/MyBlog/target/classes/templates/index.ftl"
+[2017-06-14 17:19:44,935] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en_US.ftl"): Not found
+[2017-06-14 17:19:44,935] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[2017-06-14 17:19:44,935] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+[2017-06-14 17:19:44,935] [http-nio-127.0.0.1-8081-exec-9] DEBUG freemarker.cache - "index.ftl"("en_US", UTF-8, parsed): using cached since /root/workspace/MyBlog/target/classes/templates/index.ftl hasn't changed.

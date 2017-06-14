@@ -30,3 +30,11 @@
 [2017-06-14 11:34:22,497] [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
 [2017-06-14 11:34:22,521] [main] INFO  o.a.t.u.n.NioSelectorPool - Using a shared selector for servlet write/read
 [2017-06-14 11:34:25,210] [http-nio-127.0.0.1-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2017-06-14 14:47:48,020] [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[2017-06-14 14:47:51,426] [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+[2017-06-14 14:47:51,428] [main] INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+[2017-06-14 14:47:51,692] [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[2017-06-14 14:47:56,909] [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+[2017-06-14 14:47:56,987] [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+[2017-06-14 14:47:57,742] [main] INFO  o.a.t.u.n.NioSelectorPool - Using a shared selector for servlet write/read
+[2017-06-14 14:48:59,592] [http-nio-127.0.0.1-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'

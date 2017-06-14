@@ -185,9 +185,9 @@ figure {
 	border-bottom: 1px solid #000;
 	color: #000;
 	content: attr(data-hover);
-	-webkit-transition: max-width 0.5s;
-	-moz-transition: max-width 0.5s;
-	transition: max-width 0.5s;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+	transition: width 0.5s;
 }
 
 .cl-effect-11 a:hover::before,

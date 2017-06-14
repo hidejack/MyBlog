@@ -27,7 +27,7 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-5 col-xs-8">
 						<div class="logo">
-							<h1><a href="index.html"><b>Black</b> &amp; White</a></h1>
+							<h2><a href="index.html">筚路蓝缕 以启山林 </a></h2>
 						</div>
 					</div><!-- col-md-4 -->
 					<div class="col-md-8 col-sm-7 col-xs-4">
@@ -40,10 +40,10 @@
 
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   								<ul class="nav navbar-nav navbar-right">
-    								<li class="cl-effect-11"><a href="index.html" data-hover="Home">Home</a></li>
-    								<li class="cl-effect-11"><a href="full-width.html" data-hover="Blog">Blog</a></li>
-    								<li class="cl-effect-11"><a href="about.html" data-hover="About">About</a></li>
-    								<li class="cl-effect-11"><a href="contact.html" data-hover="Contact">Contact</a></li>
+    								<li class="cl-effect-11"><a href="index.html" data-hover="首页">首页</a></li>
+    								<li class="cl-effect-11"><a href="full-width.html" data-hover="博文">博文</a></li>
+    								<li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
+    								<li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
   								</ul>
 							</div><!-- /.navbar-collapse -->
 						</nav>
@@ -65,7 +65,7 @@
 			<div class="container">
 				<div class="row">
 					<main class="col-md-12">
-						<h1 class="page-title">Contact</h1>
+						<h1 class="page-title">留言</h1>
 						<article class="post">
 							<div class="entry-content clearfix">
 								<form action="#" method="post" class="contact-form">
@@ -89,7 +89,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">&copy; 2014 ThemeWagon.com</p>
+						<p class="copyright">&copy; 2017 Create by <a href="#" target="_blank" title="">- K</a> 
+						</br> Suggestion or Contact by 
+							<a href="https://github.com/hidejack" target="_blank"> github </a> ・ 
+							<a href="mailto:hide.duke@gmail.com"> Email </a>  ・ 
+							<a href="http://wpa.qq.com/msgrd?v=3&uin=978501943&site=qq&menu=yes"  target="_blank"> QQ </a> 
+						</p>
 					</div>
 				</div>
 			</div>
@@ -100,10 +105,10 @@
 			<button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="full-width.html">Blog</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="full-width.html">博文</a></li>
+					<li><a href="about.html">关于</a></li>
+					<li><a href="contact.html">联系</a></li>
 				</ul>
 			</nav>
 		</div>
