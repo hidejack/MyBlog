@@ -1,0 +1,49 @@
+server:
+  port: 8081
+  address: localhost
+
+
+spring:
+  #datasource配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: hidek
+    password: hidek
+    dbcp2:
+      #缓存
+      cache-state: true
+      #初始化数量
+      initial-size: 50
+      #最大空闲数
+      max-idle: 20
+      #最大连接数
+      max-total: 200
+      #最小空闲数
+      min-idle: 5
+      #超时回收（秒）
+      remove-abandoned-timeout: 90 
+      #连接泄露，打印日志
+      log-abandoned: true
+ 
+  #配置freemarker
+  freemarker:
+    template-loader-path: classpath:/templates/
+    cache: true
+    charset: utf-8
+    check-template-location: true
+    suffix: .ftl
+    request-context-attribute: ctx
+    allow-request-override: false
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: false
+ 
+
+#mybatis配置
+mybatis:
+  type-aliases-package: com.my.blog.entity
+
+#logback配置
+logging:
+  config: classpath:logback.xml
+   

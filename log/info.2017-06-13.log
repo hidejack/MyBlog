@@ -1,0 +1,10 @@
+[2017-06-13 16:51:43,471] [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[2017-06-13 16:51:43,466] [background-preinit] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[2017-06-13 16:52:02,592] [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+[2017-06-13 16:52:02,623] [main] INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+[2017-06-13 16:52:02,645] [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+[2017-06-13 16:52:02,647] [main] INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+[2017-06-13 16:52:05,824] [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[2017-06-13 16:52:16,720] [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+[2017-06-13 16:52:16,787] [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+[2017-06-13 16:52:17,074] [main] INFO  o.a.t.u.n.NioSelectorPool - Using a shared selector for servlet write/read
